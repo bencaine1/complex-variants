@@ -1,0 +1,20 @@
+<?php
+class DATABASE_CONFIG {
+
+	public $ben = array(
+		'datasource' => 'Database/Mysql',
+		'persistent' => false,
+		'host' => 'localhost',
+		'login' => 'ben',
+		'password' => 'cvweb2013',
+		'database' => 'Database',
+	);
+	public $default = array(
+		'datasource' => 'Database/Mysql',
+		'persistent' => false,
+		'host' => 'localhost',
+		'login' => 'root',
+		'password' => 'root',
+		'database' => 'cake',
+	);
+}

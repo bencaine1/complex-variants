@@ -1,0 +1,19 @@
+body {
+  padding-top: 50px;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+table.longElements td {
+	max-width: 100px;
+	overflow: auto;
+}
+
+table.checkboxes td {
+	text-align: left;
+	width: 300px;
+	white-space: pre-wrap;
+}
